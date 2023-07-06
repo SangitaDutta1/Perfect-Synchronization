@@ -17,7 +17,7 @@ tt=0.0; data=[]; data1=[];
 ystart1=-pi+2*pi*rand(1,N); 
  
   for K1=0:0.001:0.3
-%%%%%%%%% uncomment for fig.11 (noise in frequency) %%%%%%%%%%%
+%%%%%%%%% uncomment for fig.11 (noise in derived frequency) %%%%%%%%%%%
 %  for m=logspace(-3,1)          %% m = sigma
 %       p=(m)*omega_p;        %% omega_p is the derived frequency omega
 %       noise=normrnd(0,p);
