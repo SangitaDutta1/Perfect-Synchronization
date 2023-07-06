@@ -18,8 +18,8 @@ ystart1=-pi+2*pi*rand(1,N);
  
   for K1=0.1:0.001:0.3
 %%%%%%%%% uncomment for fig.11(noise in frequency) %%%%%%%%%%%
-%  for m=logspace(-3,1)    
-%       sigma=(m)*omega1;
+%  for m=logspace(-3,1)          %% m = sigma
+%       sigma=(m)*omega1;        %% omega1 is the derived frequency omega
 %       noise=normrnd(0,sigma);
 %       omega=omega1+noise;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
