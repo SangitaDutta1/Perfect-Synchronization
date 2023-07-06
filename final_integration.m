@@ -16,7 +16,7 @@ op=odeset('Abstol',1e-9,'Reltol',1e-9);
 tt=0.0; data=[]; data1=[];
 ystart1=-pi+2*pi*rand(1,N); 
  
-  for K1=0.1:0.001:0.3
+  for K1=0:0.001:0.3
 %%%%%%%%% uncomment for fig.11 (noise in frequency) %%%%%%%%%%%
 %  for m=logspace(-3,1)          %% m = sigma
 %       sigma=(m)*omega1;        %% omega1 is the derived frequency omega
@@ -43,7 +43,7 @@ ystart1=-pi+2*pi*rand(1,N);
   toc
   
 ystart2=y(end,1:end);
- for K1=0.2950:-0.001:0
+ for K1=0.2990:-0.001:0
      tic
      for yy=1:2
          [t, y] = ode45(@SK_model,[tt:0.01:tt+500], ystart2, op, alpha, omega, K1, K2);
