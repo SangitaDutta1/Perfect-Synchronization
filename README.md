@@ -9,6 +9,6 @@ This repository contains Matlab code for integrating a coupled networked system 
 
 **Create_omega**: In this file the frequency is genereted by calculating the degrees of the considered network.
 
-**Create_Sys_kuramoto**: In this file the equations for the networked system is written explicitly. After running this file a new file named as SK_model.m will be generated where the equations are printed.  
+**Create_Sys_kuramoto**: In this file the equations for the networked system is written explicitly. After running this file a new file named as SK_model.m will be generated where the equations will be printed.  
 # Sample network:
 **Sample_network.mat**: We provide the adjacency matrix of a random network of size 1000 as a sample. One can replace this network by any other network to run this code.  
